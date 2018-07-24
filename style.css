@@ -1,0 +1,111 @@
+*{
+	box-sizing: border-box; 
+}
+
+h1{
+	font-family: "verdana";
+	text-align:center;
+	color: white;
+}
+
+h2{
+	font-family: verdana;
+	font-weight: normal;
+	text-align: center;
+	font-size: 23px;
+	background: linear-gradient(to bottom right,  DeepSkyBlue, DodgerBlue);
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 1000px;
+}
+
+h3{
+	font-family: verdana;
+	font-size: 1em;
+}
+
+h4{
+	font-family: verdana;
+	font-weight: normal;
+	text-align: center;
+	font-size: 23px;
+	background: linear-gradient(to bottom right,  Orange, DarkOrange);
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 1000px;
+}
+
+h6{
+	font-family: verdana;
+	font-weight: normal;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+p{
+	font-family: verdana;
+	text-align:left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+section{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header{
+	background: linear-gradient(to bottom right, #9eb5cc, SlateGrey);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+a{
+	font-family: verdana;
+	font-weight: normal;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0px;
+	max-width: 1000px;
+}
+
+
+/* Simple grid */
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row img{
+	width: 100%; /*This makes all images in grids to be the size of their cell */
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+}
+
+.g-30{
+	width: 30%;
+	float: left;
+}
+
+.g-70{
+	width: 70%;
+	float: left;
+}
+
+
+.padded{
+	padding: 20px; /* I add this to cells to add a little padding*/
+}
